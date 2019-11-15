@@ -1,0 +1,27 @@
+{
+  "name": "rn-playground-transpiler-plugin-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-proposal-decorators": "^7.7.0",
+    "@babel/runtime": "^7.7.2",
+    "babel-plugin-graphql-tag": "^2.5.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "metro-react-native-babel-preset": "^0.57.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-ignore": "^1.0.5",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
